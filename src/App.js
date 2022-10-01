@@ -203,10 +203,6 @@ class App extends Component {
 	handleDialogOpen = () => {
 		this.setState({dialogOpen: true});
 	};
-
-	/**
-	 * @description Close the clear task dialog.
-	 */
 	handleDialogClose = () => {
 		this.setState({dialogOpen: false});
 	};
