@@ -129,12 +129,6 @@ class App extends Component {
 		}.bind(this));
 	};
 
-	/**
-	 * @description Handle the Account Key TextField input change. It enable the submit button if field is not empty or
-	 * disable it otherwise.
-	 * @param {Object} event - On click event object
-	 * @param {value} value - The task description
-	 */
 	handleTextFieldChange = (event, value) => {
 		if((value.length > 0) && this.state.submitDisabled){
 			this.setState({submitDisabled: false});
